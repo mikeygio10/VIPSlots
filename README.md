@@ -3,7 +3,11 @@ VIPSlots
 
 Enable VIP players to join full servers.
 
-Commands
-/vips add {player}
-/vips remove {player}
-/vips list
+commands:
+ vips:
+  description: "Set Permissions"
+  permission: vips.command.vips
+permissions:
+  vips.command.vips:
+    default: op
+    description: "/vips <add/remove/list>"
