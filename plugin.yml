@@ -1,11 +1,11 @@
 name: VIPSlots
 main: iJoshuaHD\VIPSlots
 version: 0.0.5
-api: [3.0.09]
+api: [3.0.0]
 load: STARTUP
 author: iJoshuaHD
 description: Enable VIP players to join full servers.
-website: https://github.com/ijoshuahd/VIPSlots
+website: https://github.com/mikeygio10/VIPSlots
 commands:
  vips:
   description: "Set Permissions"
