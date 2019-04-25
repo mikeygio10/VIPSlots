@@ -7,6 +7,7 @@ commands:
  vips:
   description: "Set Permissions"
   permission: vips.command.vips
+  
 permissions:
   vips.command.vips:
     default: op
